@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stegx"
+version = "0.1.0"
+description = "Hide messages or files inside images using LSB steganography with AES encryption."
+readme = "README.md"
+authors = [
+    { name = "Rachit Patel", email = "your-email@example.com" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "pillow",
+    "cryptography"
+]
+
+[project.urls]
+Homepage = "https://github.com/<your-username>/stegx"
