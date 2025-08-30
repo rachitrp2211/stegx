@@ -29,7 +29,7 @@ Hide a text message
 python -m stegx.cli hide examples/test.png examples/stego.png --message "Hello World!" --password mypass
 
 Hide a file
-python -m stegx.cli hide examples/test.png examples/stego.png --file examples/secret.pdf --password mypass
+python -m stegx.cli reveal examples/stego.png --password mypass
 
 Reveal hidden data
 # Restore into original filename
